@@ -1,5 +1,7 @@
 # U-net_segmentation
 
+> Code made for JVTP in association with Nvias.org
+
 > - mainly made according to describrion in https://arxiv.org/pdf/1505.04597.pdf
 > - something inspired in https://keras.io/examples/vision/oxford_pets_image_segmentation/
 > - something more inspired in https://github.com/nikhilroxtomar/UNet-Segmentation-in-Keras-TensorFlow/blob/master/unet-segmentation.ipynb
