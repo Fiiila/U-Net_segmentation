@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 image_dir = "../dataset_rokycanska/images/"  #"dataset/images/"       # directory with input RGB .jpg images
 masks_dir = "../dataset_rokycanska/masks/"  #"dataset/masks/"        # directory with input .png images with values 1,2,3,4....
 model_dir = "../models/"  # directory where trained models will be saved
-model_name = "model_rokycanska_vice_trid.h5"#"model_1.h5"  # name of the trained model
+model_name = "model_rokycanska_auta.h5"#"model_1.h5"  # name of the trained model
 img_size = (160, 160)#(128, 128)               # size of images which will be processed with neural network (only width and height)
-img_name = ''                    # name of image to test predictions
+img_name = '000'                    # name of image to test predictions
 
 # Make and compile model
 model = build_Unet((img_size+(3,)))
